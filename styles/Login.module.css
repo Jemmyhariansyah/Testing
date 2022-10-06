@@ -1,0 +1,100 @@
+.container {
+  width: 800px;
+  height: 800px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.insert {
+  margin: 50px 10px;
+}
+
+.kotak {
+  width: 568px;
+  height: 509px;
+  background: #ffffff;
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.masuk {
+  margin: 30px 1px;
+  width: 87px;
+  height: 25px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 25px;
+  /* identical to box height */
+  letter-spacing: 0.04em;
+  color: #730c07;
+}
+input.email {
+  box-sizing: border-box;
+  padding: 20px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  color: #868686;
+  width: 500px;
+  height: 59px;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(83, 83, 83, 0.25);
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+input.password {
+  padding: 20px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  color: #868686;
+  width: 500px;
+  height: 59px;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(83, 83, 83, 0.25);
+  border-radius: 7px;
+}
+
+.show {
+  position: absolute;
+  left: 1150px;
+  top: 400px;
+  width: 44px;
+  height: 15px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  color: #730c07;
+}
+.forgotpassword {
+  margin: 20px auto;
+  position: absolute;
+  width: 97px;
+  height: 14px;
+  left: 1110px;
+  top: 430px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #730c07;
+}
+span.submit {
+  font-family: "Gotham";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+}
