@@ -1,7 +1,7 @@
 .container {
   width: 800px;
-  height: 800px;
-  margin: 50px auto;
+  /* height: 800px; */
+  margin: 60px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,8 +65,8 @@ input.password {
 
 .show {
   position: absolute;
-  left: 1150px;
-  top: 400px;
+  left: 950px;
+  top: 265px;
   width: 44px;
   height: 15px;
   font-family: "Gotham";
@@ -81,14 +81,8 @@ input.password {
   position: absolute;
   width: 97px;
   height: 14px;
-  left: 1110px;
-  top: 430px;
-  font-family: "Gotham";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  color: #730c07;
+  left: 940px;
+  top: 300px;
 }
 span.submit {
   font-family: "Gotham";
@@ -97,4 +91,56 @@ span.submit {
   line-height: 17px;
   text-align: center;
   color: #ffffff;
+}
+
+.show a {
+  text-decoration: none;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  color: #730c07;
+}
+.forgotpassword a {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #730c07;
+  text-decoration: none;
+}
+
+.sign {
+  width: 400px;
+  margin: 20px auto;
+  /* border: 1px solid blue; */
+  display: flex;
+  height: 200px;
+  align-items: flex-end;
+  justify-content: center;
+}
+div.isi {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  color: #7c7c7c;
+  width: 300px;
+  /* background-color: red; */
+}
+div.isi span a {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 15px;
+  color: #730c07;
+  text-decoration: none;
+}
+
+.hover a:hover {
+  color: #868686;
 }

@@ -23,15 +23,19 @@ export default function Home() {
                   <a>Show</a>
                 </Link>
               </div>
-              <div className={styles.forgotpassword}>Lupa Password?</div>
+              <div className={styles.forgotpassword}>
+                <Link href={"#"}>
+                  <a>Lupa Password?</a>
+                </Link>
+              </div>
               <div>
                 <button
                   style={{
                     position: "absolute",
                     width: 500,
                     height: 59,
-                    left: 710,
-                    top: 500,
+                    left: 520,
+                    top: 380,
                     background: "#EB3F36",
                     boxShadow: "0px 7px 6px rgba(0, 0, 0, 0.17)",
                     borderRadius: 7,
@@ -49,11 +53,21 @@ export default function Home() {
                   position: "absolute",
                   width: 420,
                   height: 1,
-                  left: 750,
-                  top: 600,
+                  left: 550,
+                  top: 470,
                   background: "#C2C2C2",
                 }}
               />
+            </div>
+            <div className={styles.sign}>
+              <div className={styles.isi}>
+                Belum punya akun?
+                <span className={styles.hover}>
+                  <Link href={"/signup"}>
+                    <a> Daftar Sekarang</a>
+                  </Link>
+                </span>
+              </div>
             </div>
           </div>
         </div>
