@@ -27,7 +27,14 @@
   letter-spacing: 0.04em;
   color: #730c07;
 }
+.masuk a {
+  color: #730c07;
+  margin-right: 10px;
+}
 
+.tulisan .tulisanMasuk {
+  padding-left: 6px;
+}
 .form {
   /* border: 10px solid black; */
   margin: 20px 30px;
