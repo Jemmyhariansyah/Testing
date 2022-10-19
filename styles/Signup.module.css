@@ -28,6 +28,10 @@
   color: #730c07;
 }
 
+.tulisan .tulisanmasuk {
+  padding-left: 5px;
+}
+
 .form {
   /* border: 10px solid black; */
   margin: 20px 30px;

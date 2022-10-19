@@ -31,9 +31,11 @@ export default function Signup() {
               </div>
               <div className={styles.tulisan}>
                 <span> Sudah punya akun? </span>
-                <Link href="/">
-                  <a> Masuk </a>
-                </Link>
+                <span className={styles.tulisanmasuk}>
+                  <Link href="/">
+                    <a> Masuk </a>
+                  </Link>
+                </span>
               </div>
             </form>
           </div>
